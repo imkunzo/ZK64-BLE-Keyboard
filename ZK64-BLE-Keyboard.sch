@@ -14,371 +14,1172 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5E8AF87F
-P 2250 950
-F 0 "#PWR?" H 2250 700 50  0001 C CNN
-F 1 "GND" H 2255 777 50  0000 C CNN
-F 2 "" H 2250 950 50  0001 C CNN
-F 3 "" H 2250 950 50  0001 C CNN
-	1    2250 950 
-	-1   0    0    1   
-$EndComp
-Text GLabel 2100 950  1    50   Input ~ 0
-3V3
-Text GLabel 2550 950  1    50   Input ~ 0
-DIO
-Text GLabel 2700 950  1    50   Input ~ 0
-DCLK
-Wire Wire Line
-	2700 1100 2700 950 
-Wire Wire Line
-	2550 1100 2550 950 
-Wire Wire Line
-	2250 1100 2250 950 
-Wire Wire Line
-	2100 1100 2100 950 
-Text GLabel 3200 2450 2    50   Input ~ 0
-RGB_PWR
-Text GLabel 2800 2950 3    50   Input ~ 0
-RGB
-Text GLabel 2700 2950 3    50   Input ~ 0
-RXD
-Text GLabel 2600 2950 3    50   Input ~ 0
-TXD
-Text GLabel 2500 2950 3    50   Input ~ 0
-B_LED
-Text GLabel 2400 2950 3    50   Input ~ 0
-G_LED
-Text GLabel 2300 2950 3    50   Input ~ 0
-R_LED
-Text GLabel 2200 2950 3    50   Input ~ 0
-Caps_LED
-Text GLabel 2000 2950 3    50   Input ~ 0
-ADC1
-Wire Bus Line
-	3700 950  4000 950 
-Entry Wire Line
-	3600 1550 3700 1650
-Entry Wire Line
-	3600 1650 3700 1750
-Entry Wire Line
-	3600 1750 3700 1850
-Entry Wire Line
-	3600 1850 3700 1950
-Entry Wire Line
-	3600 1950 3700 2050
-Entry Wire Line
-	3600 2050 3700 2150
-Entry Wire Line
-	3600 2150 3700 2250
-Entry Wire Line
-	3600 2250 3700 2350
-Entry Wire Line
-	3600 2350 3700 2450
-Entry Wire Line
-	1250 1550 1150 1450
-Entry Wire Line
-	1250 1650 1150 1550
-Entry Wire Line
-	1250 1750 1150 1650
-Entry Wire Line
-	1250 1850 1150 1750
-Entry Wire Line
-	1250 1950 1150 1850
-Entry Wire Line
-	1250 2050 1150 1950
-Entry Wire Line
-	1250 2150 1150 2050
-Entry Wire Line
-	1250 2250 1150 2150
-Entry Wire Line
-	1250 2350 1150 2250
-Entry Wire Line
-	1250 2450 1150 2350
-Entry Wire Line
-	2100 3450 2200 3550
-Wire Wire Line
-	2100 2800 2100 3450
-Text Label 2100 3400 1    50   ~ 0
-DFU
-Wire Wire Line
-	1800 1550 1250 1550
-Wire Wire Line
-	1800 1650 1250 1650
-Wire Wire Line
-	1800 1750 1250 1750
-Wire Wire Line
-	1800 1850 1250 1850
-Wire Wire Line
-	1800 1950 1250 1950
-Wire Wire Line
-	1800 2050 1250 2050
-Wire Wire Line
-	1800 2150 1250 2150
-Wire Wire Line
-	1800 2250 1250 2250
-Wire Wire Line
-	1800 2350 1250 2350
-Wire Wire Line
-	1800 2450 1250 2450
-Wire Wire Line
-	3000 1550 3600 1550
-Wire Wire Line
-	3000 1650 3600 1650
-Wire Wire Line
-	3000 1750 3600 1750
-Wire Wire Line
-	3000 1850 3600 1850
-Wire Wire Line
-	3000 1950 3600 1950
-Wire Wire Line
-	3000 2050 3600 2050
-Wire Wire Line
-	3000 2150 3600 2150
-Wire Wire Line
-	3000 2250 3600 2250
-Wire Wire Line
-	3000 2350 3600 2350
-Wire Wire Line
-	3000 2450 3200 2450
-Wire Wire Line
-	2800 2950 2800 2800
-Wire Wire Line
-	2700 2950 2700 2800
-Wire Wire Line
-	2600 2950 2600 2800
-Wire Wire Line
-	2500 2950 2500 2800
-Wire Wire Line
-	2400 2950 2400 2800
-Wire Wire Line
-	2300 2950 2300 2800
-Wire Wire Line
-	2200 2950 2200 2800
-Wire Wire Line
-	2000 2950 2000 2800
-Text Label 1450 1550 0    50   ~ 0
-col1
-Text Label 1450 1650 0    50   ~ 0
-col2
-Text Label 1450 1750 0    50   ~ 0
-col3
-Text Label 1450 1850 0    50   ~ 0
-col4
-Text Label 1450 1950 0    50   ~ 0
-col5
-Text Label 1450 2050 0    50   ~ 0
-row5
-Text Label 1450 2150 0    50   ~ 0
-row4
-Text Label 1450 2250 0    50   ~ 0
-row3
-Text Label 1450 2350 0    50   ~ 0
-row2
-Text Label 1450 2450 0    50   ~ 0
-row1
-Text Label 3200 1550 0    50   ~ 0
-col6
-Text Label 3200 1650 0    50   ~ 0
-col7
-Text Label 3200 1750 0    50   ~ 0
-col8
-Text Label 3200 1850 0    50   ~ 0
-col9
-Text Label 3200 1950 0    50   ~ 0
-col10
-Text Label 3200 2050 0    50   ~ 0
-col11
-Text Label 3200 2150 0    50   ~ 0
-col12
-Text Label 3200 2250 0    50   ~ 0
-col13
-Text Label 3200 2350 0    50   ~ 0
-col14
-Text GLabel 4550 1350 2    50   Input ~ 0
-MR1
-Text GLabel 4550 1450 2    50   Input ~ 0
-MR2
-Text GLabel 4550 1550 2    50   Input ~ 0
-MR3
-Text GLabel 4550 1650 2    50   Input ~ 0
-MR4
-Text GLabel 4550 1750 2    50   Input ~ 0
-MR5
-Text GLabel 4550 2000 2    50   Input ~ 0
-MC1
-Text GLabel 4550 2100 2    50   Input ~ 0
-MC2
-Text GLabel 4550 2200 2    50   Input ~ 0
-MC3
-Text GLabel 4550 2300 2    50   Input ~ 0
-MC4
-Text GLabel 4550 2400 2    50   Input ~ 0
-MC5
-Text GLabel 4550 2500 2    50   Input ~ 0
-MC6
-Text GLabel 4550 2600 2    50   Input ~ 0
-MC7
-Text GLabel 4550 2700 2    50   Input ~ 0
-MC8
-Text GLabel 4550 2800 2    50   Input ~ 0
-MC9
-Text GLabel 4550 2900 2    50   Input ~ 0
-MC10
-Text GLabel 4550 3000 2    50   Input ~ 0
-MC11
-Text GLabel 4550 3100 2    50   Input ~ 0
-MC12
-Text GLabel 4550 3200 2    50   Input ~ 0
-MC13
-Text GLabel 4550 3300 2    50   Input ~ 0
-MC14
-Entry Wire Line
-	4100 1350 4000 1250
-Entry Wire Line
-	4100 1450 4000 1350
-Entry Wire Line
-	4100 1550 4000 1450
-Entry Wire Line
-	4100 1650 4000 1550
-Entry Wire Line
-	4100 1750 4000 1650
-Entry Wire Line
-	4100 2000 4000 1900
-Entry Wire Line
-	4100 2100 4000 2000
-Entry Wire Line
-	4100 2200 4000 2100
-Entry Wire Line
-	4100 2300 4000 2200
-Entry Wire Line
-	4100 2400 4000 2300
-Entry Wire Line
-	4100 2500 4000 2400
-Entry Wire Line
-	4100 2600 4000 2500
-Entry Wire Line
-	4100 2700 4000 2600
-Entry Wire Line
-	4100 2800 4000 2700
-Entry Wire Line
-	4100 2900 4000 2800
-Entry Wire Line
-	4100 3000 4000 2900
-Entry Wire Line
-	4100 3100 4000 3000
-Entry Wire Line
-	4100 3200 4000 3100
-Entry Wire Line
-	4100 3300 4000 3200
-Wire Wire Line
-	4100 1350 4550 1350
-Wire Wire Line
-	4100 1450 4550 1450
-Wire Wire Line
-	4100 1550 4550 1550
-Wire Wire Line
-	4100 1650 4550 1650
-Wire Wire Line
-	4100 1750 4550 1750
-Wire Wire Line
-	4100 2000 4550 2000
-Wire Wire Line
-	4100 2100 4550 2100
-Wire Wire Line
-	4100 2200 4550 2200
-Wire Wire Line
-	4100 2300 4550 2300
-Wire Wire Line
-	4100 2400 4550 2400
-Wire Wire Line
-	4100 2500 4550 2500
-Wire Wire Line
-	4100 2600 4550 2600
-Wire Wire Line
-	4100 2700 4550 2700
-Wire Wire Line
-	4100 2800 4550 2800
-Wire Wire Line
-	4100 2900 4550 2900
-Wire Wire Line
-	4100 3000 4550 3000
-Wire Wire Line
-	4100 3100 4550 3100
-Wire Wire Line
-	4100 3200 4550 3200
-Wire Wire Line
-	4100 3300 4550 3300
-Text Label 4200 1350 0    50   ~ 0
-row1
-Text Label 4200 1450 0    50   ~ 0
-row2
-Text Label 4200 1550 0    50   ~ 0
-row3
-Text Label 4200 1650 0    50   ~ 0
-row4
-Text Label 4200 1750 0    50   ~ 0
-row5
-Text Label 4200 2000 0    50   ~ 0
-col1
-Text Label 4200 2100 0    50   ~ 0
-col2
-Text Label 4200 2200 0    50   ~ 0
-col3
-Text Label 4200 2300 0    50   ~ 0
-col4
-Text Label 4200 2400 0    50   ~ 0
-col5
-Text Label 4200 2500 0    50   ~ 0
-col6
-Text Label 4200 2600 0    50   ~ 0
-col7
-Text Label 4200 2700 0    50   ~ 0
-col8
-Text Label 4200 2800 0    50   ~ 0
-col9
-Text Label 4200 2900 0    50   ~ 0
-col10
-Text Label 4200 3000 0    50   ~ 0
-col11
-Text Label 4200 3100 0    50   ~ 0
-col12
-Text Label 4200 3200 0    50   ~ 0
-col13
-Text Label 4200 3300 0    50   ~ 0
-col14
-Wire Notes Line
-	5250 600  5250 4600
-Wire Notes Line
-	550  4600 550  600 
-Wire Notes Line
-	550  4600 5250 4600
-Wire Notes Line
-	550  600  5250 600 
-Wire Notes Line
-	1600 4350 1600 4600
-Text Notes 750  4550 0    50   ~ 0
-nRF52832\nBLE Wireless SoC
-Wire Notes Line
-	1600 4350 550  4350
-$Comp
-L ZK64-BLE-Keyboard:RF-BM-ND04 U1
-U 1 1 5E8FA7AD
-P 2400 1450
-F 0 "U1" H 2400 1050 50  0000 C CNN
-F 1 "RF-BM-ND04" H 2400 850 50  0000 C CNN
-F 2 "" H 2400 1450 50  0001 C CNN
-F 3 "" H 2400 1450 50  0001 C CNN
-	1    2400 1450
+P 2000 950
+F 0 "#PWR0101" H 2000 700 50  0001 C CNN
+F 1 "GND" H 2005 777 50  0000 C CNN
+F 2 "" H 2000 950 50  0001 C CNN
+F 3 "" H 2000 950 50  0001 C CNN
+	1    2000 950 
 	1    0    0    -1  
 $EndComp
+Text GLabel 2450 950  1    50   Input ~ 0
+3V3
+Text GLabel 2900 950  1    50   Input ~ 0
+DIO
+Text GLabel 3050 950  1    50   Input ~ 0
+DCLK
+Wire Wire Line
+	3050 1050 3050 950 
+Wire Wire Line
+	2900 1050 2900 950 
+Wire Wire Line
+	2450 1050 2450 950 
+Text GLabel 3550 2400 2    50   Input ~ 0
+RGB_PWR
+Text GLabel 3150 2900 3    50   Input ~ 0
+RGB
+Text GLabel 3050 2900 3    50   Input ~ 0
+RXD
+Text GLabel 2950 2900 3    50   Input ~ 0
+TXD
+Text GLabel 2850 2900 3    50   Input ~ 0
+B_LED
+Text GLabel 2750 2900 3    50   Input ~ 0
+G_LED
+Text GLabel 2650 2900 3    50   Input ~ 0
+R_LED
+Text GLabel 2550 2900 3    50   Input ~ 0
+Caps_LED
+Text GLabel 2350 2900 3    50   Input ~ 0
+ADC1
 Wire Bus Line
-	1150 3550 3700 3550
+	4050 900  4350 900 
+Entry Wire Line
+	3950 1500 4050 1600
+Entry Wire Line
+	3950 1600 4050 1700
+Entry Wire Line
+	3950 1700 4050 1800
+Entry Wire Line
+	3950 1800 4050 1900
+Entry Wire Line
+	3950 1900 4050 2000
+Entry Wire Line
+	3950 2000 4050 2100
+Entry Wire Line
+	3950 2100 4050 2200
+Entry Wire Line
+	3950 2200 4050 2300
+Entry Wire Line
+	3950 2300 4050 2400
+Entry Wire Line
+	1600 1500 1500 1400
+Entry Wire Line
+	1600 1600 1500 1500
+Entry Wire Line
+	1600 1700 1500 1600
+Entry Wire Line
+	1600 1800 1500 1700
+Entry Wire Line
+	1600 1900 1500 1800
+Entry Wire Line
+	1600 2000 1500 1900
+Entry Wire Line
+	1600 2100 1500 2000
+Entry Wire Line
+	1600 2200 1500 2100
+Entry Wire Line
+	1600 2300 1500 2200
+Entry Wire Line
+	1600 2400 1500 2300
+Entry Wire Line
+	2450 3400 2550 3500
+Wire Wire Line
+	2450 2750 2450 3400
+Text Label 2450 3350 1    50   ~ 0
+DFU
+Wire Wire Line
+	2150 1500 1600 1500
+Wire Wire Line
+	2150 1600 1600 1600
+Wire Wire Line
+	2150 1700 1600 1700
+Wire Wire Line
+	2150 1800 1600 1800
+Wire Wire Line
+	2150 1900 1600 1900
+Wire Wire Line
+	2150 2000 1600 2000
+Wire Wire Line
+	2150 2100 1600 2100
+Wire Wire Line
+	2150 2200 1600 2200
+Wire Wire Line
+	2150 2300 1600 2300
+Wire Wire Line
+	2150 2400 1600 2400
+Wire Wire Line
+	3350 1500 3950 1500
+Wire Wire Line
+	3350 1600 3950 1600
+Wire Wire Line
+	3350 1700 3950 1700
+Wire Wire Line
+	3350 1800 3950 1800
+Wire Wire Line
+	3350 1900 3950 1900
+Wire Wire Line
+	3350 2000 3950 2000
+Wire Wire Line
+	3350 2100 3950 2100
+Wire Wire Line
+	3350 2200 3950 2200
+Wire Wire Line
+	3350 2300 3950 2300
+Wire Wire Line
+	3350 2400 3550 2400
+Wire Wire Line
+	3150 2900 3150 2750
+Wire Wire Line
+	3050 2900 3050 2750
+Wire Wire Line
+	2950 2900 2950 2750
+Wire Wire Line
+	2850 2900 2850 2750
+Wire Wire Line
+	2750 2900 2750 2750
+Wire Wire Line
+	2650 2900 2650 2750
+Wire Wire Line
+	2550 2900 2550 2750
+Wire Wire Line
+	2350 2900 2350 2750
+Text Label 1800 1500 0    50   ~ 0
+col1
+Text Label 1800 1600 0    50   ~ 0
+col2
+Text Label 1800 1700 0    50   ~ 0
+col3
+Text Label 1800 1800 0    50   ~ 0
+col4
+Text Label 1800 1900 0    50   ~ 0
+col5
+Text Label 1800 2000 0    50   ~ 0
+row5
+Text Label 1800 2100 0    50   ~ 0
+row4
+Text Label 1800 2200 0    50   ~ 0
+row3
+Text Label 1800 2300 0    50   ~ 0
+row2
+Text Label 1800 2400 0    50   ~ 0
+row1
+Text Label 3550 1500 0    50   ~ 0
+col6
+Text Label 3550 1600 0    50   ~ 0
+col7
+Text Label 3550 1700 0    50   ~ 0
+col8
+Text Label 3550 1800 0    50   ~ 0
+col9
+Text Label 3550 1900 0    50   ~ 0
+col10
+Text Label 3550 2000 0    50   ~ 0
+col11
+Text Label 3550 2100 0    50   ~ 0
+col12
+Text Label 3550 2200 0    50   ~ 0
+col13
+Text Label 3550 2300 0    50   ~ 0
+col14
+Text GLabel 4900 1300 2    50   Input ~ 0
+MR1
+Text GLabel 4900 1400 2    50   Input ~ 0
+MR2
+Text GLabel 4900 1500 2    50   Input ~ 0
+MR3
+Text GLabel 4900 1600 2    50   Input ~ 0
+MR4
+Text GLabel 4900 1700 2    50   Input ~ 0
+MR5
+Text GLabel 4900 1950 2    50   Input ~ 0
+MC1
+Text GLabel 4900 2050 2    50   Input ~ 0
+MC2
+Text GLabel 4900 2150 2    50   Input ~ 0
+MC3
+Text GLabel 4900 2250 2    50   Input ~ 0
+MC4
+Text GLabel 4900 2350 2    50   Input ~ 0
+MC5
+Text GLabel 4900 2450 2    50   Input ~ 0
+MC6
+Text GLabel 4900 2550 2    50   Input ~ 0
+MC7
+Text GLabel 4900 2650 2    50   Input ~ 0
+MC8
+Text GLabel 4900 2750 2    50   Input ~ 0
+MC9
+Text GLabel 4900 2850 2    50   Input ~ 0
+MC10
+Text GLabel 4900 2950 2    50   Input ~ 0
+MC11
+Text GLabel 4900 3050 2    50   Input ~ 0
+MC12
+Text GLabel 4900 3150 2    50   Input ~ 0
+MC13
+Text GLabel 4900 3250 2    50   Input ~ 0
+MC14
+Entry Wire Line
+	4450 1300 4350 1200
+Entry Wire Line
+	4450 1400 4350 1300
+Entry Wire Line
+	4450 1500 4350 1400
+Entry Wire Line
+	4450 1600 4350 1500
+Entry Wire Line
+	4450 1700 4350 1600
+Entry Wire Line
+	4450 1950 4350 1850
+Entry Wire Line
+	4450 2050 4350 1950
+Entry Wire Line
+	4450 2150 4350 2050
+Entry Wire Line
+	4450 2250 4350 2150
+Entry Wire Line
+	4450 2350 4350 2250
+Entry Wire Line
+	4450 2450 4350 2350
+Entry Wire Line
+	4450 2550 4350 2450
+Entry Wire Line
+	4450 2650 4350 2550
+Entry Wire Line
+	4450 2750 4350 2650
+Entry Wire Line
+	4450 2850 4350 2750
+Entry Wire Line
+	4450 2950 4350 2850
+Entry Wire Line
+	4450 3050 4350 2950
+Entry Wire Line
+	4450 3150 4350 3050
+Entry Wire Line
+	4450 3250 4350 3150
+Wire Wire Line
+	4450 1300 4900 1300
+Wire Wire Line
+	4450 1400 4900 1400
+Wire Wire Line
+	4450 1500 4900 1500
+Wire Wire Line
+	4450 1600 4900 1600
+Wire Wire Line
+	4450 1700 4900 1700
+Wire Wire Line
+	4450 1950 4900 1950
+Wire Wire Line
+	4450 2050 4900 2050
+Wire Wire Line
+	4450 2150 4900 2150
+Wire Wire Line
+	4450 2250 4900 2250
+Wire Wire Line
+	4450 2350 4900 2350
+Wire Wire Line
+	4450 2450 4900 2450
+Wire Wire Line
+	4450 2550 4900 2550
+Wire Wire Line
+	4450 2650 4900 2650
+Wire Wire Line
+	4450 2750 4900 2750
+Wire Wire Line
+	4450 2850 4900 2850
+Wire Wire Line
+	4450 2950 4900 2950
+Wire Wire Line
+	4450 3050 4900 3050
+Wire Wire Line
+	4450 3150 4900 3150
+Wire Wire Line
+	4450 3250 4900 3250
+Text Label 4550 1300 0    50   ~ 0
+row1
+Text Label 4550 1400 0    50   ~ 0
+row2
+Text Label 4550 1500 0    50   ~ 0
+row3
+Text Label 4550 1600 0    50   ~ 0
+row4
+Text Label 4550 1700 0    50   ~ 0
+row5
+Text Label 4550 1950 0    50   ~ 0
+col1
+Text Label 4550 2050 0    50   ~ 0
+col2
+Text Label 4550 2150 0    50   ~ 0
+col3
+Text Label 4550 2250 0    50   ~ 0
+col4
+Text Label 4550 2350 0    50   ~ 0
+col5
+Text Label 4550 2450 0    50   ~ 0
+col6
+Text Label 4550 2550 0    50   ~ 0
+col7
+Text Label 4550 2650 0    50   ~ 0
+col8
+Text Label 4550 2750 0    50   ~ 0
+col9
+Text Label 4550 2850 0    50   ~ 0
+col10
+Text Label 4550 2950 0    50   ~ 0
+col11
+Text Label 4550 3050 0    50   ~ 0
+col12
+Text Label 4550 3150 0    50   ~ 0
+col13
+Text Label 4550 3250 0    50   ~ 0
+col14
+Wire Notes Line
+	1650 4350 1650 4600
+Text Notes 800  4550 0    50   ~ 0
+nRF52832\nBLE Wireless SoC
+Wire Notes Line
+	1650 4350 600  4350
+$Comp
+L ZK64-BLE-Keyboard:RF_BM-ND04 U1
+U 1 1 5E8AFAA5
+P 2750 1400
+F 0 "U1" H 2750 1000 50  0000 C CNN
+F 1 "RF_BM-ND04" H 2750 800 50  0000 C CNN
+F 2 "" H 2750 1400 50  0001 C CNN
+F 3 "" H 2750 1400 50  0001 C CNN
+	1    2750 1400
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	4250 3900 4350 3800
+Text Label 4000 3900 0    50   ~ 0
+DFU
+$Comp
+L ZK64-BLE-Keyboard:KEY K3
+U 1 1 5E8BEB31
+P 3600 4100
+F 0 "K3" H 3600 4000 50  0000 C CNN
+F 1 "KEY" H 3600 4000 50  0001 C CNN
+F 2 "" H 3600 4100 50  0001 C CNN
+F 3 "" H 3600 4100 50  0001 C CNN
+	1    3600 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 3900 4250 3900
+Wire Wire Line
+	3850 3900 3850 4100
+Wire Wire Line
+	3850 4100 3750 4100
+$Comp
+L ZK64-BLE-Keyboard:CONN_01X04_SWD_Debug_Interface SWD1
+U 1 1 5E8AFD6E
+P 2450 4050
+F 0 "SWD1" H 2450 3800 50  0000 C CNN
+F 1 "Debug_Interface" H 2450 4300 50  0000 C CNN
+F 2 "" H 2450 4050 50  0001 C CNN
+F 3 "" H 2450 4050 50  0001 C CNN
+	1    2450 4050
+	-1   0    0    1   
+$EndComp
+Text GLabel 2800 4100 2    50   Input ~ 0
+DIO
+Text GLabel 2800 4000 2    50   Input ~ 0
+DCLK
+Text GLabel 2800 4200 2    50   Input ~ 0
+3V3
+$Comp
+L power:GND #PWR0102
+U 1 1 5E8B7054
+P 3200 4300
+F 0 "#PWR0102" H 3200 4050 50  0001 C CNN
+F 1 "GND" H 3205 4127 50  0000 C CNN
+F 2 "" H 3200 4300 50  0001 C CNN
+F 3 "" H 3200 4300 50  0001 C CNN
+	1    3200 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 4100 3350 4100
+Wire Wire Line
+	3350 4100 3350 3900
+Wire Wire Line
+	2650 4000 2800 4000
+Wire Wire Line
+	2650 4100 2800 4100
+Wire Wire Line
+	2650 4200 2800 4200
+$Comp
+L ZK64-BLE-Keyboard:KEY K2
+U 1 1 5E8C6DD6
+P 1550 3850
+F 0 "K2" H 1550 3950 50  0000 C CNN
+F 1 "ResetKey" H 1550 3750 50  0000 C CNN
+F 2 "" H 1550 3850 50  0001 C CNN
+F 3 "" H 1550 3850 50  0001 C CNN
+	1    1550 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 3900 3200 3900
+Wire Wire Line
+	3200 4300 3200 3900
+Connection ~ 3200 3900
+Wire Wire Line
+	3200 3900 3350 3900
+Text GLabel 1300 3850 0    50   Input ~ 0
+RESET
+Wire Wire Line
+	1300 3850 1400 3850
+$Comp
+L ZK64-BLE-Keyboard:SW_Bootloader_Button SW1
+U 1 1 5E8DE6F1
+P 3600 3900
+F 0 "SW1" H 3600 4165 50  0000 C CNN
+F 1 "Bootloader_Button" H 3600 4074 50  0000 C CNN
+F 2 "" H 3600 3800 50  0001 C CNN
+F 3 "" H 3600 3800 50  0001 C CNN
+	1    3600 3900
+	1    0    0    -1  
+$EndComp
+Connection ~ 3350 3900
+Connection ~ 3850 3900
+$Comp
+L ZK64-BLE-Keyboard:MCU_CH554T U2
+U 1 1 5E93FA6F
+P 1700 5600
+F 0 "U2" H 1700 6250 60  0000 C CNN
+F 1 "MCU_CH554T" H 1700 4950 60  0000 C CNN
+F 2 "" H 1750 5600 60  0001 C CNN
+F 3 "" H 1750 5600 60  0001 C CNN
+	1    1700 5600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1050 5150
+NoConn ~ 1050 5250
+NoConn ~ 1050 5350
+NoConn ~ 1050 5650
+NoConn ~ 1050 5750
+NoConn ~ 1050 5850
+NoConn ~ 1050 5950
+NoConn ~ 1050 6050
+NoConn ~ 2350 5450
+NoConn ~ 2350 5550
+NoConn ~ 2350 5850
+NoConn ~ 2350 5950
+NoConn ~ 2350 6050
+Text GLabel 900  5450 0    50   BiDi ~ 0
+RXD
+Text GLabel 900  5550 0    50   BiDi ~ 0
+TXD
+Text GLabel 3500 5150 2    50   Input ~ 0
+V33
+Text GLabel 3500 5250 2    50   Input ~ 0
+VCC
+$Comp
+L Device:C C6
+U 1 1 5E9592CE
+P 3100 5600
+F 0 "C6" H 3150 5700 50  0000 L CNN
+F 1 "100nF" H 3150 5500 50  0000 L CNN
+F 2 "" H 3138 5450 50  0001 C CNN
+F 3 "~" H 3100 5600 50  0001 C CNN
+	1    3100 5600
+	1    0    0    -1  
+$EndComp
+Text GLabel 2500 5650 2    50   BiDi ~ 0
+UD-
+Text GLabel 2500 5750 2    50   BiDi ~ 0
+UD+
+$Comp
+L Device:C C7
+U 1 1 5E95FACE
+P 3400 5600
+F 0 "C7" H 3450 5700 50  0000 L CNN
+F 1 "100nF" H 3450 5500 50  0000 L CNN
+F 2 "" H 3438 5450 50  0001 C CNN
+F 3 "~" H 3400 5600 50  0001 C CNN
+	1    3400 5600
+	1    0    0    -1  
+$EndComp
+Text GLabel 2900 6600 2    50   Input ~ 0
+V33
+$Comp
+L ZK64-BLE-Keyboard:KEY K1
+U 1 1 5E9602A3
+P 2600 6600
+F 0 "K1" H 2600 6825 50  0000 C CNN
+F 1 "Download_Key" H 2600 6700 50  0000 C CNN
+F 2 "" H 2600 6600 50  0001 C CNN
+F 3 "" H 2600 6600 50  0001 C CNN
+	1    2600 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 5E96064D
+P 2250 6850
+F 0 "C8" H 2300 6950 50  0000 L CNN
+F 1 "NC/47pF" H 2300 6750 50  0000 L CNN
+F 2 "" H 2288 6700 50  0001 C CNN
+F 3 "~" H 2250 6850 50  0001 C CNN
+	1    2250 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R Rm5
+U 1 1 5E9619FA
+P 1950 6600
+F 0 "Rm5" V 1850 6600 50  0000 C CNN
+F 1 "10k" V 1950 6600 39  0000 C CNN
+F 2 "" V 1880 6600 50  0001 C CNN
+F 3 "~" H 1950 6600 50  0001 C CNN
+	1    1950 6600
+	0    1    1    0   
+$EndComp
+Text GLabel 1600 6600 0    50   Input ~ 0
+UD+
+$Comp
+L power:GND #PWR0104
+U 1 1 5E961F72
+P 2250 7150
+F 0 "#PWR0104" H 2250 6900 50  0001 C CNN
+F 1 "GND" H 2255 6977 50  0000 C CNN
+F 2 "" H 2250 7150 50  0001 C CNN
+F 3 "" H 2250 7150 50  0001 C CNN
+	1    2250 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 5250 3400 5250
+Wire Wire Line
+	900  5450 1050 5450
+Wire Wire Line
+	900  5550 1050 5550
+Wire Wire Line
+	2350 5350 2850 5350
+Wire Wire Line
+	2350 5650 2500 5650
+Wire Wire Line
+	2350 5750 2500 5750
+Wire Wire Line
+	2900 6600 2750 6600
+Wire Wire Line
+	2100 6600 2250 6600
+Wire Wire Line
+	2250 6700 2250 6600
+Connection ~ 2250 6600
+Wire Wire Line
+	2250 6600 2450 6600
+Wire Wire Line
+	2250 7000 2250 7150
+Wire Wire Line
+	1600 6600 1800 6600
+Wire Wire Line
+	3400 5950 3400 5750
+Wire Wire Line
+	3400 5450 3400 5250
+Connection ~ 3400 5250
+Wire Wire Line
+	3400 5250 3500 5250
+Wire Wire Line
+	2350 5150 3100 5150
+Wire Wire Line
+	3100 5450 3100 5150
+Connection ~ 3100 5150
+Wire Wire Line
+	3100 5150 3500 5150
+Wire Wire Line
+	3100 5750 3100 5950
+Connection ~ 3100 5950
+Wire Wire Line
+	3100 5950 3400 5950
+Wire Wire Line
+	2850 5950 3100 5950
+Connection ~ 2850 5950
+Wire Wire Line
+	2850 5350 2850 5950
+$Comp
+L power:GND #PWR0105
+U 1 1 5E95AD98
+P 2850 5950
+F 0 "#PWR0105" H 2850 5700 50  0001 C CNN
+F 1 "GND" H 2855 5777 50  0000 C CNN
+F 2 "" H 2850 5950 50  0001 C CNN
+F 3 "" H 2850 5950 50  0001 C CNN
+	1    2850 5950
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3800 7650 3800 4600
+Wire Notes Line
+	600  600  600  7650
+Wire Notes Line
+	1650 7400 1650 7650
+Wire Notes Line
+	600  7400 1650 7400
+Text Notes 950  7600 0    50   ~ 0
+CH554T\nUSB MCU
+Wire Notes Line
+	3900 7400 4950 7400
+Wire Notes Line
+	4950 7400 4950 7650
+Text Notes 4200 7550 0    50   ~ 0
+USB TYPE-C
+$Comp
+L ZK64-BLE-Keyboard:USB_TYPE-C J1
+U 1 1 5E9CC69A
+P 4350 5750
+F 0 "J1" H 4350 6550 50  0000 C CNN
+F 1 "USB_TYPE-C" H 4350 6350 50  0000 C CNN
+F 2 "" H 4550 5800 50  0001 C CNN
+F 3 "" H 4550 5800 50  0001 C CNN
+	1    4350 5750
+	1    0    0    -1  
+$EndComp
+Text GLabel 5150 5400 2    50   Output ~ 0
+VCC
+Text GLabel 5150 5700 2    50   BiDi ~ 0
+UD-
+Text GLabel 5150 5900 2    50   BiDi ~ 0
+UD+
+$Comp
+L power:GND #PWR0106
+U 1 1 5E9D19C5
+P 5150 6200
+F 0 "#PWR0106" H 5150 5950 50  0001 C CNN
+F 1 "GND" H 5155 6027 50  0000 C CNN
+F 2 "" H 5150 6200 50  0001 C CNN
+F 3 "" H 5150 6200 50  0001 C CNN
+	1    5150 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5E9D1A56
+P 5150 6800
+F 0 "#PWR0107" H 5150 6550 50  0001 C CNN
+F 1 "GND" H 5155 6627 50  0000 C CNN
+F 2 "" H 5150 6800 50  0001 C CNN
+F 3 "" H 5150 6800 50  0001 C CNN
+	1    5150 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R Rm7
+U 1 1 5E9D494B
+P 4550 6800
+F 0 "Rm7" V 4450 6800 50  0000 C CNN
+F 1 "5.1k" V 4550 6800 39  0000 C CNN
+F 2 "" V 4480 6800 50  0001 C CNN
+F 3 "~" H 4550 6800 50  0001 C CNN
+	1    4550 6800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R Rm6
+U 1 1 5E9D51BE
+P 4550 7050
+F 0 "Rm6" V 4450 7050 50  0000 C CNN
+F 1 "5.1k" V 4550 7050 39  0000 C CNN
+F 2 "" V 4480 7050 50  0001 C CNN
+F 3 "~" H 4550 7050 50  0001 C CNN
+	1    4550 7050
+	0    1    1    0   
+$EndComp
+NoConn ~ 4400 6550
+NoConn ~ 4550 6550
+Wire Wire Line
+	4150 6550 4150 6800
+Wire Wire Line
+	4150 6800 4400 6800
+Wire Wire Line
+	4000 7050 4400 7050
+Wire Wire Line
+	4000 6550 4000 7050
+Wire Wire Line
+	4700 7050 4700 6800
+Wire Wire Line
+	4700 6800 5150 6800
+Connection ~ 4700 6800
+Wire Wire Line
+	1700 3850 1950 3850
+$Comp
+L power:GND #PWR0103
+U 1 1 5E8D4C2E
+P 1950 3850
+F 0 "#PWR0103" H 1950 3600 50  0001 C CNN
+F 1 "GND" H 1955 3677 50  0000 C CNN
+F 2 "" H 1950 3850 50  0001 C CNN
+F 3 "" H 1950 3850 50  0001 C CNN
+	1    1950 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 1050 2600 700 
+Wire Wire Line
+	2600 700  2000 700 
+Wire Wire Line
+	2000 700  2000 950 
+Wire Wire Line
+	5000 5400 5150 5400
+Wire Wire Line
+	5000 5300 5000 5400
+Connection ~ 5000 5400
+Wire Wire Line
+	5000 5700 5150 5700
+Wire Wire Line
+	5000 5600 5000 5700
+Connection ~ 5000 5700
+Wire Wire Line
+	5000 5900 5150 5900
+Wire Wire Line
+	5000 5800 5000 5900
+Connection ~ 5000 5900
+Wire Wire Line
+	5000 6200 5150 6200
+Wire Wire Line
+	5000 6100 5000 6200
+Connection ~ 5000 6200
+Wire Notes Line
+	11100 600  11100 3450
+$Comp
+L ZK64-BLE-Keyboard:MCU_TP4057 U3
+U 1 1 5EA5CB80
+P 6450 1200
+F 0 "U3" H 6450 1687 60  0000 C CNN
+F 1 "TP4057" H 6450 1581 60  0000 C CNN
+F 2 "" H 6500 1150 60  0001 C CNN
+F 3 "" H 6500 1150 60  0001 C CNN
+	1    6450 1200
+	1    0    0    -1  
+$EndComp
+Text GLabel 7550 1000 2    50   Input ~ 0
+VCC
+Text GLabel 7550 1100 2    50   Input ~ 0
+BATT
+$Comp
+L power:GND #PWR?
+U 1 1 5EA5E1A2
+P 6900 1700
+F 0 "#PWR?" H 6900 1450 50  0001 C CNN
+F 1 "GND" H 6905 1527 50  0000 C CNN
+F 2 "" H 6900 1700 50  0001 C CNN
+F 3 "" H 6900 1700 50  0001 C CNN
+	1    6900 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5EA5E5D7
+P 7400 1400
+F 0 "C2" H 7450 1500 50  0000 L CNN
+F 1 "10uF" H 7450 1300 50  0000 L CNN
+F 2 "" H 7438 1250 50  0001 C CNN
+F 3 "~" H 7400 1400 50  0001 C CNN
+	1    7400 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5EA5EEC2
+P 7100 1400
+F 0 "C1" H 7150 1500 50  0000 L CNN
+F 1 "1uF" H 7150 1300 50  0000 L CNN
+F 2 "" H 7138 1250 50  0001 C CNN
+F 3 "~" H 7100 1400 50  0001 C CNN
+	1    7100 1400
+	1    0    0    -1  
+$EndComp
+Text GLabel 5850 1000 0    50   Input ~ 0
+CHRG
+Text GLabel 5850 1100 0    50   Input ~ 0
+STBY
+$Comp
+L power:GND #PWR?
+U 1 1 5EA5FC48
+P 5850 1700
+F 0 "#PWR?" H 5850 1450 50  0001 C CNN
+F 1 "GND" H 5855 1527 50  0000 C CNN
+F 2 "" H 5850 1700 50  0001 C CNN
+F 3 "" H 5850 1700 50  0001 C CNN
+	1    5850 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R Rm1
+U 1 1 5EA5FE7F
+P 7250 1000
+F 0 "Rm1" V 7150 1000 50  0000 C CNN
+F 1 "1R" V 7250 1000 39  0000 C CNN
+F 2 "" V 7180 1000 50  0001 C CNN
+F 3 "~" H 7250 1000 50  0001 C CNN
+	1    7250 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R Rm2
+U 1 1 5EA5F51F
+P 5850 1450
+F 0 "Rm2" V 5750 1450 50  0000 C CNN
+F 1 "4.7K" V 5850 1450 39  0000 C CNN
+F 2 "" V 5780 1450 50  0001 C CNN
+F 3 "~" H 5850 1450 50  0001 C CNN
+	1    5850 1450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5850 1000 6000 1000
+Wire Wire Line
+	5850 1100 6000 1100
+Wire Wire Line
+	6000 1200 5850 1200
+Wire Wire Line
+	5850 1200 5850 1300
+Wire Wire Line
+	5850 1600 5850 1700
+Wire Wire Line
+	6900 1700 6900 1550
+Wire Wire Line
+	6900 1000 7100 1000
+Wire Wire Line
+	7400 1000 7550 1000
+Wire Wire Line
+	7550 1100 7400 1100
+Wire Wire Line
+	7100 1000 7100 1250
+Connection ~ 7100 1000
+Wire Wire Line
+	7100 1550 6900 1550
+Connection ~ 6900 1550
+Wire Wire Line
+	6900 1550 6900 1200
+Wire Wire Line
+	7400 1550 7100 1550
+Connection ~ 7100 1550
+Wire Wire Line
+	7400 1250 7400 1100
+Connection ~ 7400 1100
+Wire Wire Line
+	7400 1100 6900 1100
+Text Label 6900 1000 0    50   ~ 0
+5V
+Text Label 6900 1100 0    50   ~ 0
+4.2V
+Text Label 5850 1300 0    50   ~ 0
+PROG
+Wire Notes Line
+	10850 600  10850 3450
+Text Notes 11000 2100 1    50   ~ 0
+Power
+Wire Notes Line
+	600  7650 5500 7650
+Wire Notes Line
+	600  4600 5500 4600
+Wire Notes Line
+	5500 2000 10850 2000
+Wire Notes Line
+	5500 3450 11100 3450
+$Comp
+L ZK64-BLE-Keyboard:Conn_01x02_BATT_Interface BATT1
+U 1 1 5EAFF774
+P 8650 1150
+F 0 "BATT1" H 8550 1250 50  0000 L CNN
+F 1 "2.54mm" H 8500 950 50  0000 L CNN
+F 2 "" H 8650 1150 50  0001 C CNN
+F 3 "~" H 8650 1150 50  0001 C CNN
+	1    8650 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L ZK64-BLE-Keyboard:Conn_01x02_BATT_Interface BATT2
+U 1 1 5EB049CD
+P 9100 1150
+F 0 "BATT2" H 9000 1250 50  0000 L CNN
+F 1 "1.25mm" H 8950 950 50  0000 L CNN
+F 2 "" H 9100 1150 50  0001 C CNN
+F 3 "~" H 9100 1150 50  0001 C CNN
+	1    9100 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EB04FEA
+P 8300 1550
+F 0 "#PWR?" H 8300 1300 50  0001 C CNN
+F 1 "GND" H 8305 1377 50  0000 C CNN
+F 2 "" H 8300 1550 50  0001 C CNN
+F 3 "" H 8300 1550 50  0001 C CNN
+	1    8300 1550
+	1    0    0    -1  
+$EndComp
+Text GLabel 8200 1150 0    50   Input ~ 0
+BATT
+Wire Wire Line
+	8200 1150 8300 1150
+Wire Wire Line
+	8900 1150 8900 900 
+Wire Wire Line
+	8900 900  8300 900 
+Wire Wire Line
+	8300 900  8300 1150
+Connection ~ 8300 1150
+Wire Wire Line
+	8300 1150 8450 1150
+Wire Wire Line
+	8900 1250 8900 1450
+Wire Wire Line
+	8900 1450 8300 1450
+Wire Wire Line
+	8300 1450 8300 1550
+Wire Wire Line
+	8450 1250 8300 1250
+Wire Wire Line
+	8300 1250 8300 1450
+Connection ~ 8300 1450
+Text GLabel 9700 900  0    50   Input ~ 0
+ADC1
+$Comp
+L Device:R Rm3
+U 1 1 5EB1CC0D
+P 10250 900
+F 0 "Rm3" V 10150 900 50  0000 C CNN
+F 1 "10M" V 10250 900 39  0000 C CNN
+F 2 "" V 10180 900 50  0001 C CNN
+F 3 "~" H 10250 900 50  0001 C CNN
+	1    10250 900 
+	0    1    1    0   
+$EndComp
+Text GLabel 10550 900  2    50   Input ~ 0
+BATT
+$Comp
+L Device:R Rm4
+U 1 1 5EB1D55B
+P 10250 1250
+F 0 "Rm4" V 10150 1250 50  0000 C CNN
+F 1 "2M" V 10250 1250 39  0000 C CNN
+F 2 "" V 10180 1250 50  0001 C CNN
+F 3 "~" H 10250 1250 50  0001 C CNN
+	1    10250 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5EB1DC95
+P 9800 1350
+F 0 "C3" H 9850 1450 50  0000 L CNN
+F 1 "10nF" H 9850 1250 50  0000 L CNN
+F 2 "" H 9838 1200 50  0001 C CNN
+F 3 "~" H 9800 1350 50  0001 C CNN
+	1    9800 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EB1FE1D
+P 10550 1600
+F 0 "#PWR?" H 10550 1350 50  0001 C CNN
+F 1 "GND" H 10555 1427 50  0000 C CNN
+F 2 "" H 10550 1600 50  0001 C CNN
+F 3 "" H 10550 1600 50  0001 C CNN
+	1    10550 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 900  10550 900 
+Wire Wire Line
+	10100 1250 10100 1050
+Wire Wire Line
+	9700 900  9800 900 
+Wire Wire Line
+	9800 900  9800 1050
+Wire Wire Line
+	9800 1050 10100 1050
+Connection ~ 9800 1050
+Wire Wire Line
+	9800 1050 9800 1200
+Connection ~ 10100 1050
+Wire Wire Line
+	10100 1050 10100 900 
+Wire Wire Line
+	10400 1250 10550 1250
+Wire Wire Line
+	10550 1250 10550 1600
+Wire Wire Line
+	9800 1600 9800 1500
+$Comp
+L power:GND #PWR?
+U 1 1 5EB1FA92
+P 9800 1600
+F 0 "#PWR?" H 9800 1350 50  0001 C CNN
+F 1 "GND" H 9805 1427 50  0000 C CNN
+F 2 "" H 9800 1600 50  0001 C CNN
+F 3 "" H 9800 1600 50  0001 C CNN
+	1    9800 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L ZK64-BLE-Keyboard:XC6206P332MR U4
+U 1 1 5EBC47ED
+P 10100 2650
+F 0 "U4" H 10100 2965 50  0000 C CNN
+F 1 "XC6206P332MR" H 10100 2874 50  0000 C CNN
+F 2 "" H 10100 2600 50  0001 C CNN
+F 3 "" H 10100 2600 50  0001 C CNN
+	1    10100 2650
+	1    0    0    -1  
+$EndComp
+Text GLabel 9600 2600 0    50   Input ~ 0
+VIN
+Text GLabel 10700 2300 1    50   Output ~ 0
+3V3
+$Comp
+L Device:C C4
+U 1 1 5EBC58D7
+P 9700 2900
+F 0 "C4" H 9750 3000 50  0000 L CNN
+F 1 "1uF" H 9750 2800 50  0000 L CNN
+F 2 "" H 9738 2750 50  0001 C CNN
+F 3 "~" H 9700 2900 50  0001 C CNN
+	1    9700 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5EBC63A6
+P 10500 2900
+F 0 "C5" H 10550 3000 50  0000 L CNN
+F 1 "1uF" H 10550 2800 50  0000 L CNN
+F 2 "" H 10538 2750 50  0001 C CNN
+F 3 "~" H 10500 2900 50  0001 C CNN
+	1    10500 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EBCC6AC
+P 9700 3150
+F 0 "#PWR?" H 9700 2900 50  0001 C CNN
+F 1 "GND" H 9705 2977 50  0000 C CNN
+F 2 "" H 9700 3150 50  0001 C CNN
+F 3 "" H 9700 3150 50  0001 C CNN
+	1    9700 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EBCD141
+P 10100 3100
+F 0 "#PWR?" H 10100 2850 50  0001 C CNN
+F 1 "GND" H 10105 2927 50  0000 C CNN
+F 2 "" H 10100 3100 50  0001 C CNN
+F 3 "" H 10100 3100 50  0001 C CNN
+	1    10100 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EBCD587
+P 10500 3150
+F 0 "#PWR?" H 10500 2900 50  0001 C CNN
+F 1 "GND" H 10505 2977 50  0000 C CNN
+F 2 "" H 10500 3150 50  0001 C CNN
+F 3 "" H 10500 3150 50  0001 C CNN
+	1    10500 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 2600 9700 2750
+Wire Wire Line
+	9700 3150 9700 3050
+Wire Wire Line
+	10100 3000 10100 3100
+Wire Wire Line
+	10500 3050 10500 3150
+Wire Wire Line
+	10500 2750 10500 2600
+Wire Wire Line
+	10500 2600 10700 2600
+Wire Wire Line
+	10700 2600 10700 2300
+Connection ~ 10500 2600
+Text Label 10700 2550 1    50   ~ 0
+3.3V
+Wire Wire Line
+	9600 2600 9700 2600
+Connection ~ 9700 2600
+Text GLabel 9050 2700 2    50   Output ~ 0
+VIN
+Text GLabel 8250 2900 0    50   Input ~ 0
+BATT
+Text GLabel 8250 2500 0    50   Input ~ 0
+VCC
+Wire Wire Line
+	8750 2500 8900 2500
+Wire Wire Line
+	8900 2500 8900 2700
+Wire Wire Line
+	8900 2900 8750 2900
+Wire Wire Line
+	9050 2700 8900 2700
+Connection ~ 8900 2700
+Wire Wire Line
+	8900 2700 8900 2900
+Wire Wire Line
+	8250 2500 8450 2500
+Wire Wire Line
+	8250 2900 8450 2900
+Text Label 8900 2600 0    50   ~ 0
+4.2V-5V
 Wire Bus Line
-	1150 950  1150 3550
+	1500 3500 4050 3500
 Wire Bus Line
-	3700 950  3700 3550
+	1500 900  1500 3500
 Wire Bus Line
-	4000 950  4000 4300
+	4050 900  4050 3500
+Wire Bus Line
+	4350 900  4350 4000
+$Comp
+L ZK64-BLE-Keyboard:D_Schottky_B5819W_SL DS1
+U 1 1 5EC831A2
+P 8600 2500
+F 0 "DS1" H 8600 2400 50  0000 C CNN
+F 1 "B5819W_SL" H 8600 2600 50  0000 C CNN
+F 2 "" H 8600 2500 50  0001 C CNN
+F 3 "~" H 8600 2500 50  0001 C CNN
+	1    8600 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L ZK64-BLE-Keyboard:D_Schottky_B5819W_SL DS2
+U 1 1 5EC83B32
+P 8600 2900
+F 0 "DS2" H 8600 2800 50  0000 C CNN
+F 1 "B5819W_SL" H 8600 3000 50  0000 C CNN
+F 2 "" H 8600 2900 50  0001 C CNN
+F 3 "~" H 8600 2900 50  0001 C CNN
+	1    8600 2900
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	9350 600  9350 3450
+Wire Notes Line
+	7900 600  7900 3450
+Wire Notes Line width 24
+	5500 600  5500 7650
+Wire Notes Line
+	600  600  11100 600 
 $EndSCHEMATC

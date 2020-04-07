@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name ZK64-BLE-Keyboard)(type Legacy)(uri ${KIPRJMOD}/ZK64-BLE-Keyboard.lib)(options "")(descr ""))
+  (lib (name GH60BLE)(type Legacy)(uri /Users/zack/Workspace/ZK64-BLE-Keyboard/keyboard-rescue.lib)(options "")(descr ""))
 )
